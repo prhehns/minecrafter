@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/dirt.png");
+    background-image: url("images/webdev/dirt.webp");
     background-repeat: repeat;
     background-size: cover;
 }
@@ -10,6 +10,7 @@ header{
     align-items: center;
     justify-content: flex-end;
     background-color: white;
+    margin-bottom: 10vw;
 }
 
 header ul{
@@ -19,8 +20,23 @@ header ul{
     margin-left: 6vw;
 }
 
+header img{
+    height: 20vh;
+    width: 20vh;
+}
+
 header li, h1{
     margin: 3vw;
     padding: 0.5vw;
     font-size: 1.75vw;
+}
+
+.home_pic{
+    height: 50vw;
+    transform: rotateX('-50%');
+    left: 50%;
+}
+
+.container{
+    background-color: brown;
 }
