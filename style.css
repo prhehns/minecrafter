@@ -1,0 +1,26 @@
+body{
+    background-image: url("images/dirt.png");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 6vw;
+}
+
+header li, h1{
+    margin: 3vw;
+    padding: 0.5vw;
+    font-size: 1.75vw;
+}
