@@ -11,6 +11,7 @@ header{
     justify-content: flex-end;
     background-color: white;
     margin-bottom: 10vw;
+    position: sticky;
 }
 
 header ul{
@@ -32,11 +33,44 @@ header li, h1{
 }
 
 .home_pic{
+    position: relative;
     height: 50vw;
-    transform: rotateX('-50%');
     left: 50%;
+    transform: translateX(-50%);
+    padding: 3vw;
 }
 
 .container{
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+}
+
+.container1{
     background-color: #ac743b;
+    width: 75vw;
+}
+
+.container h1{
+
+}
+
+.container2{
+    display: flex;
+}
+
+.option_cont li{
+    background-color: #f7daae;
+    padding: 3vw;
+    margin-bottom: 2vw;
+    list-style: none;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    background-color: white;
+    padding: 3vw 0;
+    align-items: center;
+    justify-content: center;
 }
