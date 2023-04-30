@@ -24,6 +24,7 @@ header ul{
 header img{
     height: 10vw;
     width: 10vw;
+    margin-left: 15vw;
 }
 
 header li, h1{
