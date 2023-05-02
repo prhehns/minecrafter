@@ -11,9 +11,6 @@
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
     <header>
         <img src="images/webdev/logo.png" alt="">
         <h1>Minecrafter</h1>
@@ -21,7 +18,7 @@
             <li>FORUM</li>
             <li>PROFILE</li>
             <li>SETTINGS</li>
-            <li>SIGN/LOGOUT</li>
+            <li>SIGN IN</li>
         </ul>
     </header>
 
