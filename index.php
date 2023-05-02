@@ -18,7 +18,7 @@
             <li> <a href="forum.php">FORUM</a> </li>
             <li><a href="profile.php">PROFILE</a></li>
             <li><a href="setting.php">SETTINGS</a></li>
-            <li>SIGN IN</li>
+            <li>SIGN-IN</li>
         </ul>
     </header>
 
