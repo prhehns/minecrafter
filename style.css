@@ -2,6 +2,7 @@ body{
     background-image: url("images/webdev/dirt.webp");
     background-repeat: repeat;
     background-size: cover;
+    margin: 0;
 }
 
 
