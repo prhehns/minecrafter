@@ -21,7 +21,7 @@
             <li>FORUM</li>
             <li>PROFILE</li>
             <li>SETTINGS</li>
-            <li>SIGN/LOGOUT</li>
+            <li>SIGN IN</li>
         </ul>
     </header>
 
