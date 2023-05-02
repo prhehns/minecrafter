@@ -15,9 +15,9 @@
         <img src="images/webdev/logo.png" alt="">
         <h1>Minecrafter</h1>
         <ul>
-            <li>FORUM</li>
-            <li>PROFILE</li>
-            <li>SETTINGS</li>
+            <li> <a href="forum.php">FORUM</a> </li>
+            <li><a href="profile.php">PROFILE</a></li>
+            <li><a href="setting.php">sETTINGS</a></li>
             <li>SIGN IN</li>
         </ul>
     </header>
