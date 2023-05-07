@@ -1,29 +1,29 @@
-<!DOCTYPE html>
-<html>
+<?php
+require "header.php"
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-</head>
+    ?>
 
-<body>
-    <header>
-        <img src="images/webdev/logo.png" alt="">
-        <h1>Minecrafter</h1>
-        <ul>
-            <li> <a href="index.php">FORUM</a> </li>
-        </ul>
-    </header>
 
-    
-    <footer>
-        <h1>@2023 CRAFTERS GUILD, INC. ALL RIGHTS RESERVE</h1>
-    </footer>
-    <script src="" async defer></script>
-</body>
+<main>
+    <div class="wrapper-main">
+        <section class="section-default">
+            <h1>Signup</h1>
+            <form action="includes/login.inc.php" method="post">
+                <input type="text" name="user">
+                <input type="password" name="pass">
+                <input type="rpassword" name="rpass">
+                <button type="submit" name="signup-submit">Signup</button>
+            </form>
+            <a href="login.php"> Signup</a>
+            <form action="includes/logout.inc.php" method="post">
+                <button type="submit" name="logout-submit">Logout</button>
+            </form>
+        </section>
+    </div>
 
-</html>
+</main>
+
+<?php
+require "footer.php"
+
+    ?>

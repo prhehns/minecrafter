@@ -1,9 +1,8 @@
-
 <?php
-    require "header.php"
-?>
+require "header.php"
+    ?>
 <main>
-<img class="home_pic" src="images/webdev/village.jpg" alt="">
+    <img class="home_pic" src="images/webdev/village.jpg" alt="">
 
     <div class="container">
         <div class="container1">
@@ -37,5 +36,4 @@
 
 <?php
 require "footer.php"
-?>
-
+    ?>

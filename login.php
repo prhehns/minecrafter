@@ -1,3 +1,9 @@
+<?php
+require "header.php"
+
+    ?>
+
+
 <div>
     <form action="includes/login.inc.php" method="post">
         <input type="text" name="mailuid" value="username...">
@@ -9,3 +15,9 @@
         <button type="submit" name="logout-submit">Logout</button>
     </form>
 </div>
+
+
+<?php
+require "footer.php"
+
+    ?>
