@@ -1,3 +1,8 @@
+
+<?php
+    require "header.php"
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -57,3 +62,4 @@
 </body>
 
 </html>
+
