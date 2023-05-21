@@ -1,0 +1,104 @@
+body{
+    background-image: url("images/webdev/dirt.webp");
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+header{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: flex-end; */
+    /* background-color: rgb(255, 255, 255); */
+    /* margin-bottom: 10vw;  this was the raason of the big white box thingy  */
+    /* position: sticky; */
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1; /* Add this line to allow the items to expand and fill the available space */
+}
+
+header li {
+    margin-left: auto; /* Add this line to push the items to the right */
+  }
+
+header img{
+    height: 5vw;
+    width: 5vw;
+    /* display: flex; */
+    /* margin-left: 15vw; */
+}
+
+header li, h1{
+    
+    padding: 3vw;
+    font-size: 1.75vw;
+}
+
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    /* other styles */
+}
+
+.home_pic{
+    position: relative;
+    height: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 3vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+}
+
+.container1{
+    background-color: #ac743b;
+    width: 75vw;
+}
+
+
+.container2{
+    display: flex;
+}
+
+.option_cont li{
+    background-color: #f7daae;
+    padding: 3vw;
+    margin-bottom: 2vw;
+    list-style: none;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    background-color: white;
+    padding: 3vw 0;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add this CSS code to style the "Login" element */
+div.class_9 span {
+    cursor: pointer;
+    /* Add your desired styles here */
+    background-color: #ac743b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+} 
+div.class_9 span:hover {
+    /* Add your desired hover styles here */
+    background-color: #804d27;
+}
